@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://backend.alamash236.workers.dev"
