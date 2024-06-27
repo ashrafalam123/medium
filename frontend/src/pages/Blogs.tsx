@@ -7,10 +7,13 @@ export const Blogs = () => {
     const {loading,blogs} = useBlogs();
     if(loading){
         return <div>
+            <Appbar />
+        <div>
         <BlogSkeleton />
         <BlogSkeleton />
         <BlogSkeleton />
         <BlogSkeleton />
+        </div>
         </div>
     }
     return<div> 
